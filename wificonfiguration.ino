@@ -1,6 +1,8 @@
 #include "ConfigurationWiFi.hpp"
 
+
 ConfigurationWiFi configWiFi;
+
 
 void setup() {
   
@@ -10,4 +12,5 @@ void setup() {
 
 void loop() {
     configWiFi.handleClient();
+  
 }
